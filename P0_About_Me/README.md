@@ -1,7 +1,13 @@
+# P0 About Me
+## Contents
+* index.html - modified based on the below instructions.
+* styles.css - modified based on the below instructions.
+* images directory
+* link to the forum topic : https://discussions.udacity.com/t/about-me-itsuo-okamoto/159136
+  This above topic was made by following the project instruction. Here is [About Me](http://codepen.io/anon/pen/PNwvze) on CodePen. 
+
 ## Project 0 for Project Nautilus ##
-
 ###Instructions:
-
 0. index.html is an HTML file, which is a document that will be displayed as a website. Open it up in a text editor like Sublime Text to edit it, or open it in a browser like Google Chrome to see how it looks!
 1. Add your name where it says [Your name]. Refresh to see it! Answer the other questions in the HTML by changing and saving the text in the file. Watch what happens when you refresh the page!
 2. Notice how the site is boring and isn't styled? That's because there's no CSS, which controls the style of the page. Go to the forums to get instructions for creating a <link> to the CSS in the file styles.css.
