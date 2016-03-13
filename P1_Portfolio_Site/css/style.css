@@ -1,0 +1,21 @@
+body {
+    /*color: #F8981C;*/
+    color: #747704;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.text-muted {
+    color: #BCBBBB;
+}
+.text-thin {
+    font-weight: 100;
+}
+.udacity-logo {
+  max-height: 100%;
+  width: 20%;
+  float: left;
+}
+.title-hr {
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
