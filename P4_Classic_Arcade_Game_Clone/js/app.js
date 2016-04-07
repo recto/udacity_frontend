@@ -56,6 +56,7 @@ var Player = function() {
     this.sprite = 'images/char-boy.png';
     this.x = 2 * COL_W;
     this.y = PLAYER_YMAX;
+    this.rect = {x: this.x, y: this.y, width: HIT_W, height: HIT_H};
 };
 
 // Update the player's position, required method for game
@@ -63,14 +64,14 @@ Player.prototype.update = function() {
   if (this.resource) {
     this.rect = {x: this.x, y: this.y, width: HIT_W, height: HIT_H};
     allEnemies.forEach(function(enemy) {
-      if (player.rect.x < enemy.rect.x + enemy.rect.width &&
-          player.rect.x + player.rect.width > enemy.rect.x &&
-          player.rect.y < enemy.rect.y + enemy.rect.height &&
-          player.rect.height + player.rect.y > enemy.rect.y) {
-            player.x = 2 * COL_W;
-            player.y = PLAYER_YMAX;
+      if (this.rect.x < enemy.rect.x + enemy.rect.width &&
+          this.rect.x + this.rect.width > enemy.rect.x &&
+          this.rect.y < enemy.rect.y + enemy.rect.height &&
+          this.rect.height + this.rect.y > enemy.rect.y) {
+            this.x = 2 * COL_W;
+            this.y = PLAYER_YMAX;
           }
-    });
+    }, this);
   }
 };
 
