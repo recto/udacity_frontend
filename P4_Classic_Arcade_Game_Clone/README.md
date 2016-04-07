@@ -7,6 +7,12 @@ changed from the original.
 * js/engine.js - Application engine. No change from the original.
 * index.html - Frogger game top page html. No change from the original.
 
+## Staring Application
+To start the application follow the below steps:
+* Start your browser. (preferably chrome)
+* Open index.html
+* Once the application is started, move the player with arrow keys.
+
 ## Short Summary
 Enemy/Player are implemented in js/app.js.
 
@@ -24,8 +30,7 @@ back to the initial position. Player.render draws image.
 Player.handleInput changes the position of player when key is pressed.
 
 ## Instructions given by Udacity
-frontend-nanodegree-arcade-game
-===============================
+### frontend-nanodegree-arcade-game
 
 Students should use this [rubric](https://www.udacity.com/course/viewer/#!/c-nd001/l-2696458597/m-2687128535) for self-checking their submission.
 
