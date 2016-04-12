@@ -7,3 +7,4 @@ the project directory for details.
 * P1 Portfolio Site - P1_Portfolio_Site
 * P3 Online Resume - P3_Online_Resume (This is copied from [other repository](https://github.com/recto/frontend-nanodegree-resume.git).)
 * P4 Classic Arcade Game Clone - P4_Classic_Arcade_Game_Clone
+* P6 Mobile Portfolio - P6_Mobile_Portofolio
