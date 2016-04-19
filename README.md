@@ -9,3 +9,4 @@ the project directory for details.
 * P4 Classic Arcade Game Clone - P4_Classic_Arcade_Game_Clone
 * P6 Mobile Portfolio - P6_Mobile_Portofolio
 * P6 Web Wokers Demo - P6_Web_Workersi_Demo
+* P6 Pizza Performance Optimization - P6_Pizza-Perf
