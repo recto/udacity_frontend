@@ -7,6 +7,7 @@ the project directory for details.
 * P1 Portfolio Site - P1_Portfolio_Site
 * P3 Online Resume - P3_Online_Resume (This is copied from [other repository](https://github.com/recto/frontend-nanodegree-resume.git).)
 * P4 Classic Arcade Game Clone - P4_Classic_Arcade_Game_Clone
-* P6 Mobile Portfolio - P6_Mobile_Portofolio
-* P6 Web Wokers Demo - P6_Web_Workersi_Demo
-* P6 Pizza Performance Optimization - P6_Pizza-Perf
+* P6 Mobile Portfolio - P6_Mobile_Portofolio (Course Project)
+* P6 Web Wokers Demo - P6_Web_Workersi_Demo (Course Project)
+* P6 Pizza Performance Optimization - P6_Pizza-Perf (Course Project)
+* P6 News Aggregator - P6_News_Aggregator (Course Project)
