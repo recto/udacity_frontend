@@ -1,3 +1,42 @@
+# P6 Website Optimization
+## Contents
+* This repository was forked from [Website Performance Optimization portfolio project](https://github.com/udacity/frontend-nanodegree-mobile-portfolio). Only the following files are modified.
+* img/profilepic.jpg
+* index.html
+* views/images/pizzeria.png
+* views/js/main.js
+
+## Usage
+I made github page so you can evaluate PageSpeed of index.html. You can find it at http://recto.github.io/frontend-nanodegree-mobile-portfolio/. So, please follow the below steps to evaluate PageSpeed of index.html.
+* Open your browser. (Note: Chrome is used for testing.)
+* Go to [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+* Copy & paste http://recto.github.io/frontend-nanodegree-mobile-portfolio/ to URL field.
+* Click on "Analyze".
+* Check the analysis report.
+
+For views/pizza.html, you can also use the above github site.
+* Open your browser, Chrome.
+* Go to http://recto.github.io/frontend-nanodegree-mobile-portfolio/views/pizza.html.
+* Start "Developer Tools".
+* Select "Timeline".
+* Click on record button.
+* Scroll pizza page and stop recording.
+* Check the timeline report.
+
+## Short Summary
+### Changes for index.html
+To satisfy PageSpeed requirement, the following changes were made.
+* Reduced the size of img/profilepic.jpg and views/images/pizzeria.png
+* Added media query so print.css becomes only effective when it's printed.
+* Removed link to style.css and added those styles inline in index.html.
+
+### Changes for pizza.html
+It appeared updatePositions in views/js/main.js caused rendering views/images/pizza.png when scrolling. Since it does not add much value to the size, this function is removed.
+
+---
+Description from the original project
+---
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
@@ -32,7 +71,7 @@ Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
-To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
+To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js.
 
 You might find the FPS Counter/HUD Display useful in Chrome developer tools described here: [Chrome Dev Tools tips-and-tricks](https://developer.chrome.com/devtools/docs/tips-and-tricks).
 
