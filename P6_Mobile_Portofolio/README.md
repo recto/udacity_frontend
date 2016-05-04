@@ -31,7 +31,10 @@ To satisfy PageSpeed requirement, the following changes were made.
 * Removed link to style.css and added those styles inline in index.html.
 
 ### Changes for pizza.html
-It appeared updatePositions in views/js/main.js caused rendering views/images/pizza.png when scrolling. Since it does not add much value to the size, this function is removed.
+#### Scroll optimization
+It appeared updatePositions in views/js/main.js caused rendering views/images/pizza.png when scrolling. document.body.scrollTop is moved from the for loop to the outside of the loop. This makes scrolling faster. FPS is nearly 60fps. To make it faster than that, it's probably the best to stop moving pizza images in the background. But I keep the move at this time as I am not sure if stop moving images is accepted.
+#### Size slider optimization
+determineDx was simplified to avoid unnecessary calculation based on element properties.
 
 ---
 Description from the original project
