@@ -11,3 +11,4 @@ the project directory for details.
 * P6 Web Wokers Demo - P6_Web_Workersi_Demo (Course Project)
 * P6 Pizza Performance Optimization - P6_Pizza-Perf (Course Project)
 * P6 News Aggregator - P6_News_Aggregator (Course Project)
+* P7 Neighborhood Map - P7_Neighborhood_Map (Course Project)
