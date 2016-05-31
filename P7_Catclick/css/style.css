@@ -1,0 +1,52 @@
+* {box-sizing:border-box;}
+body {background-color: #CCC;}
+
+.greeting {
+    color:black;
+    text-shadow: 1px 1px 3px rgba(255,255,255, .5);
+    text-align: center;
+}
+
+.cat-name {
+  color:black;
+  text-shadow: 1px 1px 3px rgba(255,255,255, .5);
+  text-align: left;
+}
+
+.cat-clicked {
+  color:black;
+  text-shadow: 1px 1px 3px rgba(255,255,255, .5);
+  text-align: left;
+}
+
+.chewie-clicked {
+  color:black;
+  text-shadow: 1px 1px 3px rgba(255,255,255, .5);
+  text-align: right;
+}
+
+.chewie-name {
+  color:black;
+  text-shadow: 1px 1px 3px rgba(255,255,255, .5);
+  text-align: right;
+}
+
+.cat-container {
+}
+
+.cat {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:50%;
+    z-index:-1;
+    opacity:1;
+}
+.chewie {
+    position:fixed;
+    top: 0;
+    right: 0;
+    width:50%;
+    z-index:-1;
+    opacity:1;
+}
