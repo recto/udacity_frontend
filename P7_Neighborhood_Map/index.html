@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Pizza places near Union Square</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <title>Pizza places</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link media="(min-width: 640px)" rel="stylesheet" href="css/style.css" />
+    <link media="(max-width: 640px)" rel="stylesheet" href="css/mobile.css" />
 </head>
 <body>
-  <div id="list-view">
+  <div class="list-view">
     <div id="message"></div>
-    <h3>Pizza Places near Union Square</h3>
-    <input type="text" placeholder="Enter text to filter the list and hit enter."
-      data-bind="textInput: filter, event: {change: filterList}"></input>
+    <h3 class="title">Pizza Places</h3>
+    <input type="text" placeholder="Enter text to filter the list."
+      data-bind="textInput: filter, event: {keyup: filterList}"></input>
     <div data-bind="foreach: placeList">
         <div data-bind="visible: $data.visibility">
           <div class="item" data-bind="click: $parent.setCurrentLocation">
-            <div class="name" data-bind="text: $data.marker().title"></div>
+            <div class="name" data-bind="text: $data.marker.title"></div>
             <div class="address" data-bind="text: $data.address"></div>
           </div>
         </div>
@@ -22,8 +25,9 @@
     </div>
   </div>
   <div id="map"></div>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO0N87MQ-1ha9jrOIkuwOF3rIFbd4Ejyw"
-type="text/javascript"></script>
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO0N87MQ-1ha9jrOIkuwOF3rIFbd4Ejyw&callback=initMap"
+    onerror="mapError()"></script>
   <script src="js/lib/jquery.min.js"></script>
   <script src="js/lib/knockout.js"></script>
   <script src="js/app.js"></script>
