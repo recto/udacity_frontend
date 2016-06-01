@@ -1,6 +1,8 @@
 # P7 Neighborhood Map
 ## Contents
-* css/style.css
+* css/base.css (base style sheet)
+* css/style.css (style sheet for device width >= 640px)
+* css/mobile.css (style sheet for device width < 640px)
 * img/bg.png
 * js/app.js (knockout js viewmodel and model are defined in this file.)
 * index.html (start page and view definition of this application.)
@@ -15,4 +17,4 @@ To use this project application, please follow the below steps.
 * It should show infoWindow with the information from Foursquare. Also, marker should bounce for a while.
 * Select the input text field located at the top left corner.
 * Enter some text so it filters the pizza places. It will show the places, which contains the given word in either its name or address.
-* Clear the input text field and hit enter key to show the full list again.
+* Clear the input text field to show the full list again.
