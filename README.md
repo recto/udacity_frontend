@@ -12,3 +12,4 @@ the project directory for details.
 * P6 Pizza Performance Optimization - P6_Pizza-Perf (Course Project)
 * P6 News Aggregator - P6_News_Aggregator (Course Project)
 * P7 Neighborhood Map - P7_Neighborhood_Map (Course Project)
+* P8 Feed Reader Testing - P8_Feed_Reader_Testing (Course Project)
