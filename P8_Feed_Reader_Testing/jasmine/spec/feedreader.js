@@ -107,13 +107,11 @@ $(function() {
         beforeEach(function(done) {
             loadFeed(0, function() {
                 entries0 = $('.feed > .entry-link');
-            });
-            setTimeout(function() {
                 loadFeed(1, function() {
                   entries1 = $('.feed > .entry-link');
                   done();
                 });
-            }, 100);
+            });
         });
         /* a test that ensures when a new feed is loaded
          * by the loadFeed function that the content actually changes.
