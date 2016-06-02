@@ -1,3 +1,17 @@
+# P8 Feed Reader Testing
+## Modified Contents
+Only jasmine/spec/feedreader.js is modified. Other files are unchanged from https://github.com/udacity/frontend-nanodegree-feedreader.
+
+## Usage
+To perform test, please follow the below steps.
+* Clone or download https://github.com/recto/udacity_frontend.git to your local environment.
+* Start your web browser. (Note: this is tested only with Chrome.)
+* Open P8_Feed_Reader_Testing/index.html in your workspace with your browser.
+* Check Jasmine report at the bottom of the page.
+
+---
+# Original Instruction from Udacity
+---
 # Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
